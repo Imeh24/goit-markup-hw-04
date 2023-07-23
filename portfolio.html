@@ -14,9 +14,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
   </head>
+  <!-- This is header -->
   <body>
-    <!-- This is header -->
-    <body>
     <!--This is header-->
     <header class="header header-container">
       <div class="container header-container">
@@ -32,7 +31,9 @@
               <a class="header-link links" href="./index.html">Studio</a>
             </li>
             <li class="header-item">
-              <a class="header-link links current" href="./portfolio.html">Portfolio</a>
+              <a class="header-link links current" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li class="header-item">
               <a class="header-link links" href="#">Contacts</a>
@@ -61,11 +62,15 @@
       <section class="section">
         <div class="container filter-containter">
           <ul class="filter lists">
-            <li><button class="filter-item active" type="button">All</button></li>
+            <li>
+              <button class="filter-item active" type="button">All</button>
+            </li>
             <li><button class="filter-item" type="button">Web Site</button></li>
             <li><button class="filter-item" type="button">App</button></li>
             <li><button class="filter-item" type="button">Design</button></li>
-            <li><button class="filter-item" type="button">Marketing</button></li>
+            <li>
+              <button class="filter-item" type="button">Marketing</button>
+            </li>
           </ul>
           <ul class="project lists">
             <li class="project-item">
@@ -75,8 +80,10 @@
                 width="360"
               />
               <div class="project-description">
-              <h3 class="project-title titles">Banking App Interface Concept</h3>
-              <p class="project-bottom-text bottom-text">App</p>
+                <h3 class="project-title titles">
+                  Banking App Interface Concept
+                </h3>
+                <p class="project-bottom-text bottom-text">App</p>
               </div>
             </li>
             <li class="project-item">
@@ -96,7 +103,7 @@
                 alt="meditation app"
                 width="360"
               />
-              <div class="project-description"> 
+              <div class="project-description">
                 <h3 class="project-title titles">Meditation App</h3>
                 <p class="project-bottom-text bottom-text">App</p>
               </div>
@@ -108,7 +115,7 @@
                 alt="taxi service"
                 width="360"
               />
-              <div class="project-description"> 
+              <div class="project-description">
                 <h3 class="project-title titles">Taxi Service</h3>
                 <p class="project-bottom-text bottom-text">Marketing</p>
               </div>
@@ -121,7 +128,7 @@
                 width="360"
               />
               <div class="project-description">
-                <h3  class="project-title titles">Screen Illustrations</h3>
+                <h3 class="project-title titles">Screen Illustrations</h3>
                 <p class="project-bottom-text bottom-text">Design</p>
               </div>
             </li>
@@ -133,8 +140,8 @@
                 width="360"
               />
               <div class="project-description">
-              <h3 class="project-title titles">Online Courses</h3>
-              <p class="project-bottom-text bottom-text">Marketing</p>
+                <h3 class="project-title titles">Online Courses</h3>
+                <p class="project-bottom-text bottom-text">Marketing</p>
               </div>
             </li>
 
@@ -145,8 +152,8 @@
                 width="360"
               />
               <div class="project-description">
-              <h3 class="project-title titles">Taxi Service</h3>
-              <p class="project-bottom-text bottom-text">Design</p>
+                <h3 class="project-title titles">Taxi Service</h3>
+                <p class="project-bottom-text bottom-text">Design</p>
               </div>
             </li>
 
@@ -157,8 +164,8 @@
                 width="360"
               />
               <div class="project-description">
-              <h3 class="project-title titles">Screen Illustrations</h3>
-              <p class="project-bottom-text bottom-text">Website</p>
+                <h3 class="project-title titles">Screen Illustrations</h3>
+                <p class="project-bottom-text bottom-text">Website</p>
               </div>
             </li>
 
@@ -177,19 +184,56 @@
         </div>
       </section>
     </main>
-     <!--This is footer-->
+    <!--This is footer-->
     <footer class="footer-section">
       <div class="container footer-container">
-        <a class="header-logo links" href="./index.html">
-          <span class="web-logo">WEB</span
-          ><span class="studio-logo studio-footer">STUDIO </span>
-        </a>
-        <div class="footer-text">
+        <div>
+          <a class="header-logo links" href="./index.html">
+            <span class="web-logo">WEB</span
+            ><span class="studio-logo studio-footer">STUDIO </span>
+          </a>
+
           <p class="footer-bottom-text bottom-text">
             Increase the flow of customers and<br />
             sales for your business with digital<br />
             marketing & growth solutions.
           </p>
+        </div>
+        <div class="footer-social-media">
+          <p class="footer-social-media-text">Social media</p>
+          <ul class="footer-social-list lists">
+            <li class="footer-icon-item">
+              <a href="#" class="footer-social-link links">
+                <svg class="footer-social-icon" width="16" height="16">
+                  <use href="./images/icon.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer-icon-item">
+              <a href="#" class="footer-social-link links">
+                <svg class="footer-social-icon" width="16" height="16">
+                  <use href="./images/icon.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer-icon-item">
+              <a href="#" class="footer-social-link links">
+                <svg class="footer-social-icon" width="16" height="16">
+                  <use href="./images/icon.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer-icon-item">
+              <a href="#" class="footer-social-link links">
+                <svg class="footer-social-icon" width="16" height="16">
+                  <use href="./images/icon.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
